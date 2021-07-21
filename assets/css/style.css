@@ -646,6 +646,11 @@ body {
 	float: right;
 }
 
+.skill-text {
+	/* text-align: center; */
+	margin: 0 auto;
+}
+
 .progress-box {
 	margin-bottom: 50px;
 }
@@ -858,6 +863,7 @@ body {
 	width: 300px;
 	height: 300px;
 	perspective: 1000px;
+	margin: 10px auto;
   }
   
   .flip-card-inner {
@@ -891,6 +897,10 @@ body {
 	background-color: #f3f3f3;
 	color: white;
 	transform: rotateY(180deg);
+  }
+
+  .card-holed {
+	  margin: 0, auto;
   }
 
 /* 09. SERVICES
